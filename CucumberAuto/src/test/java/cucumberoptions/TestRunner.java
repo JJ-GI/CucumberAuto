@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions;
 		features="src/test/java/features",
 		glue="stepdefinitions",
 		tags= {"@Sanity"},
-		plugin= {//"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
+		plugin= {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 				"pretty","html:target/html","json:target/report.json","junit:target/report.xml"})
 
 public class TestRunner {
