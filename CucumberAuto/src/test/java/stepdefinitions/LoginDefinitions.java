@@ -15,6 +15,7 @@ public class LoginDefinitions {
     @Given("^User is on homepage$")
     public void user_is_on_homepage() throws Throwable {
     	System.out.println("given");
+    	System.out.println("This is git update");
     }
 
     @When("^User logging in using (.+) and (.+)$")
